@@ -1,0 +1,15 @@
+1. List the authors of "Making database systems usable" in in alphabetic order
+2. Return me the number of authors who have published at least one paper in PVLDB or in ICDE. (Note: PVLDB is a journal; ICDE is a conference)
+3. Please provide me with the name of an author who works in the same organization as Divesh Srivastava, along with the homepage (not empty) of the author and the name of the organization.
+4. List the name of each organizations along with the number of authors associated with it.
+5. List the number of papers published in the VLDB conference every year between 1995 and 2002. Sort the results in ascending order of year. (Note: Both 1995 and 2002 are included.)
+6. List the titles and years of 10 papers with the highest citations that are relevant to the keyword "Natural Language", along with the number of citations. Papers should be sorted in descending order of the number of citations. (Note: Each publication is associated with a few keywords. )
+7. List the names and organizations of authors who published at least one paper with both "H. V. Jagadish" and "Divesh Srivastava" as co-authors.
+8. List the names of authors who have published more papers with "H. V. Jagadish" than those with "Divesh Srivastava". (Note: If an author never collaborated with "H. V. Jagadish", the number of papers published with "H. V. Jagadish" is considered as 0. )
+9. List the title(s) of the paper(s) who have cited some paper of "Divesh Srivastava" with the 2nd highest number of citations. (Note: Paper A cites paper B means B appears in A’s references. Return all the papers that have the 2nd highest number of citations. )
+10. List the names of authors in Data Mining or Artificial Intelligence domain from University of California Berkeley.
+11. List the names of 10 authors who have cited the paper ‘Efficient similarity search in sequence databases’ with top-10 collaborations with H. V. Jagadish
+12. List the names of conferences and journals that have more than 50 papers with keyword "Relational Database".
+
+* Answer each query with one SQL statement.
+* Please avoid using temporary relations (defined by with … as) if at all possible. In particulary, avoid using one big temporary relation for all queries. You will not get full marks for one query if a temporary relation is used and it contains information from relations that are not relevant or necessary for answering this query.
